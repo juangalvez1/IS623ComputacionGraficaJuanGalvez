@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#top {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#top div {
+    width: 700px;
+    height: 90px;
+    background-color: rgba(17, 17, 131, 0.966);
+    border-radius: 5px;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    width: 700px;
+}
+
+#content div{
+    width: 215px;
+    height: 215px;
+}
+
+#primero{
+    background-color: red;
+    width: 215px;
+    height: 215px;
+}
+
+#segundo{
+    background-color: #8CBE8B;
+    width: 215px;
+    height: 215px;
+
+}
