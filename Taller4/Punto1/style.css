@@ -105,7 +105,6 @@ body{
 
     /* box-shadow añade una sombra ligera para dar profundidad al botón */
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
-
     cursor: pointer;
 
     /* position: relative permite que el icono con position:absolute
