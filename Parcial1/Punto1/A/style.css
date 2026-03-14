@@ -16,7 +16,7 @@ main{
 #top div {
     width: 710px;
     height: 90px;
-    background-color: rgba(17, 17, 131, 0.966);
+    background-color: #073966;
     border-radius: 5px;
 }
 
@@ -29,14 +29,14 @@ main{
 }
 
 
-#primero{
+#red_square{
     background-color: #EE4433;
     width: 200px;
     height: 200px;
     border-radius: 3px;
 }
 
-#segundo{
+#green_rectangle_rombus{
     display:flex;
     justify-content: center;
     align-items: flex-end;
@@ -47,7 +47,7 @@ main{
     padding-bottom: 30px;
 }
 
-#rombo_externo{
+#external_rhombus{
     bottom: 5px;
     display: flex;
     justify-content: center;
@@ -58,21 +58,21 @@ main{
     width: 120px;
     height: 120px;
 }
-#rombo_interno{
+#internal_rhombus{
     border-radius: 3px;
     background-color: #EE891F;
     width: 80px;
     height: 80px;
 }
 
-#tercero{
+#green_rectangle{
     background-color: #8CBE8B;
     width: 230px;
     height: 200px;
     border-radius: 3px;
 }
 
-#cuarto{
+#orange_square{
     background-color: #E9AC32;
     display: flex;
     justify-content: center;
@@ -80,7 +80,7 @@ main{
     border-radius: 3px;
 }
 
-#cuadrado_externo_cuarto{
+#orange_external_square{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,67 +90,67 @@ main{
     border-radius: 3px;
 }
 
-#cuadrado_interno_cuarto{
+#orange_internal_square{
     width: 100px;
     height: 100px;
     background-color: #EE4433;
     border-radius: 3px;
 }
 
-#primer_circulo{
+#purple_circle{
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
-#primer_circulo div{
+#purple_circle div{
     background-color: #8A3B50;
     border-radius: 50%;
     width: 190px;
     height: 190px;
 }
 
-#segundo_circulo{
+#orange_circle{
     display:flex;
     justify-content: center;
     align-items: flex-start;
 }
 
-#segundo_circulo div{
+#orange_circle div{
     background-color: #EE891F;
     border-radius: 50%;
     width: 170px;
     height: 170px;
 }
 
-#septimo{
+#bars{
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-#primer_cuadro{
+#first_bar{
     width: 200px;
     height: 80px;
     background-color: #EE891F;
     border-radius: 3px;
 }
 
-#segundo_cuadro{
+#second_bar{
     width: 200px;
     height: 30px;
     background-color: #EE891F;
     border-radius: 3px;
 }
 
-#tercer_cuadro{
+#third_bar{
     width: 200px;
     height: 30px;
     background-color: #F96F6D;
     border-radius: 3px;
 }
 
-#cuarto_cuadro{
+#fourth_bar{
     width: 200px;
     height: 30px;
     background-color: #F96F6D;
@@ -158,7 +158,7 @@ main{
     margin-bottom: -50px;
 }
 
-#octavo{
+#blue_square{
     background-color: #199398;
     display: flex;
     justify-content: center;
@@ -169,7 +169,7 @@ main{
     margin-left: 20px;
 }
 
-#cuadrado_externo_octavo{
+#blue_external_square{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,14 +179,14 @@ main{
     border-radius: 3px;
 }
 
-#cuadrado_interno_octavo{
+#blue_internal_square{
     width: 120px;
     height: 80px;
     background-color: #2EA19E;
     border-radius: 3px;
 }
 
-#noveno{
+#green_square{
     background-color: #8CBE8B;
     display: flex;
     justify-content: center;
@@ -197,7 +197,7 @@ main{
     margin-top: -20px;
 }
 
-#cuadrado_externo_noveno{
+#green_external_square{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,7 +207,7 @@ main{
     border-radius: 3px;
 }
 
-#cuadrado_interno_noveno{
+#green_internal_square{
     width: 100px;
     height: 100px;
     background-color: #479A66;
