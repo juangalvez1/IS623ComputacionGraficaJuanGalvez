@@ -30,7 +30,7 @@ main{
 
 
 #primero{
-    background-color: red;
+    background-color: #EE4433;
     width: 200px;
     height: 200px;
     border-radius: 3px;
@@ -69,4 +69,55 @@ main{
     background-color: #8CBE8B;
     width: 230px;
     height: 200px;
+}
+
+#cuarto{
+    background-color: #E9AC32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+#cuadrado_externo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    background-color: antiquewhite;
+    border-radius: 3px;
+}
+
+#cuadrado_interno{
+    width: 100px;
+    height: 100px;
+    background-color: #EE4433;
+    border-radius: 3px;
+}
+
+#primer_circulo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#primer_circulo div{
+    background-color: #8A3B50;
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+}
+
+#segundo_circulo{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#segundo_circulo div{
+    background-color: #EE891F;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
