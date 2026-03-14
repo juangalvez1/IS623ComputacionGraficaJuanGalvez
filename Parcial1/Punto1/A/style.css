@@ -35,13 +35,42 @@ main{
 
 #primero{
     background-color: red;
-    width: 215px;
-    height: 215px;
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
 }
 
 #segundo{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
     background-color: #8CBE8B;
-    width: 215px;
-    height: 215px;
+    width: 230px;
+    height: 170px;
+    border-radius: 3px;
+    padding-bottom: 30px;
+}
 
+#rombo_externo{
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    border-radius: 3px;
+    background-color: #179197;
+    width: 120px;
+    height: 120px;
+}
+#rombo_interno{
+    border-radius: 3px;
+    background-color: #EE891F;
+    width: 80px;
+    height: 80px;
+}
+
+#tercero{
+    background-color: #8CBE8B;
+    width: 230px;
+    height: 200px;
 }
