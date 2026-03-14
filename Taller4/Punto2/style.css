@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('media/crash-cart.jpg');
+    background-size: 100% 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh;
+    counter-reset: pregunta;
+}
+
+h1{
+    color: #F97316;
+    text-shadow: 3px 3px 0 #0F172A;
+}
+
+h2{
+    color: #FACC15;
+    text-shadow: 3px 3px 0 #0F172A;
+}
+
+.preguntas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+    justify-items: center;
+    min-height: 100vh;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.pregunta{
+    color: white;
+    background-color: rgba(10, 95, 184, 0.85);
+    border: solid 6px solid #F97316;
+    border-radius: 5px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    gap: 5%;
+    margin-bottom: 3%;
+    width: 70%;
+    height: 100%;
+    counter-increment: pregunta;
+}
+
+.pregunta input{
+    border: 4px solid #F97316;
+    width: 40%;
+    border-radius: 12px;
+    box-shadow: 0 8px 0 #0F172A;
+}
+
+.pregunta input:focus{
+    border-color: #FACC15;
+}
+
+.numero{
+    font-weight: bold;
+    color: #FACC15;
+}
+
+.numero::before{
+    content: "Pregunta " counter(pregunta) ".";
+    font-weight: bold;
+    color: #FACC15;
+}
+
+.texto{
+    font-size: 14px;
+}

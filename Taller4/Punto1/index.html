@@ -1,33 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Indica que el documento utiliza HTML5 -->
+
+    <html lang="en">
+    <!-- Elemento raíz de la página. El atributo lang define el idioma principal del documento -->
+
     <head>
+        <!-- Sección de metadatos y recursos externos necesarios para la página -->
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Estas etiquetas meta configuran la codificación de caracteres y permiten que
+            la página sea compatible con navegadores modernos y adaptable a dispositivos móviles -->
 
-        <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <!--
+            Importa la librería Font Awesome desde un CDN.
+            rel="stylesheet" indica que es una hoja de estilos.
+            href contiene la dirección del archivo CSS con los iconos.
+            integrity es un hash de seguridad para verificar que el archivo no ha sido modificado.
+            crossorigin permite cargar el recurso desde otro dominio sin enviar credenciales.
+            Esta librería permite usar iconos como Facebook, Twitter o correo mediante clases CSS.
+        -->
         <link rel="stylesheet" href="style.css">
+        <!-- Hoja de estilos propia donde se define el diseño de la interfaz -->
+
         <title>Login</title>
     </head>
     <body>
+        <!-- Contenedor principal de la interfaz de registro e inicio de sesión -->
+
         <div class="container">
             <div class="login-container">
+
+                <!-- Sección de registro de usuario -->
                 <div class="register">
                     <h3>Registro</h3>
+
                     <form action="">
+                        <!--
+                            Formulario para registrar nuevos usuarios.
+                            El atributo action define a dónde se enviarán los datos del formulario.
+                            En este caso está vacío, por lo que los datos se enviarían a la misma página.
+                            Dentro del formulario se incluyen los campos necesarios para crear la cuenta.
+                        -->
                         <input type="text" placeholder="Nombre" class="nombre">
                         <input type="text" placeholder="Correo" class="correo">
                         <input type="password" placeholder="Contraseña" class="pass">
                         <input type="password" placeholder="Confirmar Contraseña" class="compass">
+
+                        <!-- Botón que envía los datos del formulario -->
                         <input type="submit" class="submit" value="Registrarse">
                     </form>
                 </div>
+
+                <!-- Sección de inicio de sesión -->
                 <div class="login">
                     <h3>Iniciar sesión</h3>
+
                     <div class="login-items">
-                        <button class="fb"><i class="fab fa-facebook-f"></i>Acceder con facebook</button>
-                        <button class="tw"><i class="fab fa-twitter"></i>Acceder con twitter</button>
-                        <button class="correo"><i class="fas fa-envelope"></i>Acceder con correo</button>
+                        <!-- Botones de acceso mediante diferentes plataformas -->
+
+                        <button class="fb">
+                            <i class="fab fa-facebook-f"></i>Acceder con facebook
+                        </button>
+
+                        <button class="tw">
+                            <i class="fab fa-twitter"></i>Acceder con twitter
+                        </button>
+
+                        <button class="correo">
+                            <i class="fas fa-envelope"></i>Acceder con correo
+                        </button>
+
+                        <!-- Los iconos se agregan con la etiqueta <i> usando clases de Font Awesome -->
                     </div>
                 </div>
             </div>

@@ -1,7 +1,11 @@
+/* Fondo general de la página.
+   Se usa un degradado vertical desde un color oscuro hasta blanco */
 body{
     background: linear-gradient(rgb(16, 16, 16), white);
 }
 
+/* Contenedor principal que ocupa toda la altura de la pantalla.
+   Se usa Flexbox para centrar el contenido horizontal y verticalmente */
 .container{
     width: 100%;
     height: 100vh;
@@ -11,20 +15,29 @@ body{
     align-items: center;
 }
 
+/* Caja principal del login y registro */
 .login-container{
     display: flex;
     width: 650px;
     height: auto;
     background: #fff;
+
+    /* box-shadow agrega una sombra alrededor del contenedor,
+       creando un efecto de tarjeta elevada sobre el fondo */
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
 }
 
+/* Ambas secciones ocupan el mismo espacio dentro del contenedor */
 .register, .login{
     flex: 1;
 }
 
+/* Sección del formulario de registro */
 .register{
     padding: 40px;
+
+    /* position: relative permite posicionar elementos hijos
+       de forma absoluta tomando este contenedor como referencia */
     position: relative;
 }
 
@@ -33,28 +46,38 @@ body{
     margin-bottom: 30px;
 }
 
+/* Estilo de los campos del formulario */
 .register input{
     width: 100%;
     padding: 5px;
     font-size: 16px;
     margin-bottom: 25px;
+
+    /* Se eliminan tres bordes para dejar solo la línea inferior */
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
     border-bottom: 1px solid #a8a8a8;
+
     color: #333;
 }
 
+/* Botón de enviar formulario */
 .register .submit{
     width: auto;
     padding: 10px;
     background: #120c06;
     color: #fff;
     font-size: 12px;
+
+    /* box-shadow crea una pequeña sombra que hace que el botón
+       parezca elevado o presionable */
     box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+
     cursor: pointer;
 }
 
+/* Sección de inicio de sesión con fondo degradado */
 .login{
     background-image: linear-gradient(to bottom right, #101015, #dce4fd);
     padding: 40px;
@@ -65,33 +88,46 @@ body{
     margin-bottom: 45px;
 }
 
+/* Posicionamiento del icono dentro de los botones */
 .login button i{
     position: absolute;
+
+    /* Se ubica el icono dentro del botón en la esquina superior izquierda */
     top: 12px;
     left: 12px;
 }
 
+/* Estilo general de los botones de login */
 .login button{
     width: 100%;
     margin: 15px 0;
     padding: 10px;
+
+    /* box-shadow añade una sombra ligera para dar profundidad al botón */
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+
     cursor: pointer;
+
+    /* position: relative permite que el icono con position:absolute
+       se posicione tomando el botón como referencia */
     position: relative;
 }
 
+/* Botón de Facebook */
 .login .fb{
     background: #3b5999;
     border-style: none;
     color: #fff;
 }
 
+/* Botón de Twitter */
 .login .tw{
     background: #55acef;
     border-style: none;
     color: #fff;
 }
 
+/* Botón de acceso por correo */
 .login .correo{
     background: #33d4ce;
     border-style: none;
