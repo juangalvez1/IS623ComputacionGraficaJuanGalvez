@@ -113,27 +113,127 @@ body {
     cursor: pointer;
 }
 
-.main {
+.main{
     grid-area: main;
     overflow-y: auto;
     min-height: 0;
     display: grid;
     grid-template-columns: repeat(1fr, 4);
     padding: 2%;
-    gap: 5%;
+    gap: 7%;
     background-color: #F5F7FA;
 }
 
-.main div{
-    height: 300px;
-    border: 2px solid rgba(0,48,135,0.4); /* azul con 40% de opacidad */
-}
-
-.card {
+.card1, .card2, .card3, .card4{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
     border: 2px solid rgba(0,48,135,0.4);
     border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 1.5%;
     background-color: #FFFFFF;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    font-size: 25px;
+}
+
+.inicio-tab{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inicio-tab h2{
+    height: 20%;
+    font-size: 25px;
+    font-weight: 250;
+}
+
+.inicio-tab p{
+    font-size: 70px;
+}
+
+.ingresos{
+    color: green;
+}
+
+.gastos{
+    color: red
+}
+
+.ingresos-tab{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ingresos-tab h2{
+    height: 20%;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.ingresos-tab p{
+    font-size: 70px;
+}
+
+.trabajo{
+    color: #FF9900;
+}
+
+.inversiones{
+    color: #003087;
+}
+
+.regalos{
+    color: #6A1B9A;
+}
+
+.gastos-tab{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.gastos-tab h2{
+    height: 20%;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.gastos-tab p{
+    font-size: 70px;
+}
+
+.renta{
+    color: #9099A3;
+}
+
+.prestamos{
+    color: #DDAAA0;
+}
+
+.servicios{
+    color: #D32F2F;
+}
+
+.reportes-tab{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.reportes-tab h2{
+    height: 20%;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.reportes-tab p{
+    font-size: 15px;
 }
