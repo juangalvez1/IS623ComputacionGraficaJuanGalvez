@@ -143,6 +143,60 @@ function Punto3(){
     DrawLine(cx + r/2, cy - (Math.sqrt(3)/2)*r, cx + r, cy, "red", hexagono);
 }
 
+function Punto4(){
+    let interfaz = document.getElementById('punto4');
+    let lienzo = interfaz.getContext('2d');
+
+    let w = interfaz.width;   // 600
+    let h = interfaz.height;  // 300
+
+    // 🔲 IZQUIERDA — BÁSICO
+    lienzo.fillStyle = "lightblue";
+    lienzo.fillRect(20, 20, 120, 60);
+
+    lienzo.strokeStyle = "black";
+    lienzo.strokeRect(160, 20, 120, 60);
+
+    lienzo.clearRect(50, 30, 40, 30);
+
+    lienzo.beginPath();
+    lienzo.arc(100, 150, 40, 0, Math.PI * 2);
+    lienzo.fillStyle = "yellow";
+    lienzo.fill();
+    lienzo.stroke();
+    lienzo.closePath();
+
+    // 🔹 DERECHA — AVANZADO
+    lienzo.beginPath();
+    lienzo.arc(450, 80, 40, 0, Math.PI);
+    lienzo.strokeStyle = "orange";
+    lienzo.stroke();
+    lienzo.closePath();
+
+    lienzo.font = "18px Arial";
+    lienzo.fillStyle = "black";
+    lienzo.fillText("Canvas", 350, 160);
+
+    lienzo.strokeStyle = "red";
+    lienzo.strokeText("API", 450, 160);
+
+    lienzo.beginPath();
+    lienzo.moveTo(320, 220);
+    lienzo.quadraticCurveTo(380, 170, 440, 220);
+    lienzo.strokeStyle = "green";
+    lienzo.stroke();
+    lienzo.closePath();
+
+    lienzo.beginPath();
+    lienzo.moveTo(460, 220);
+    lienzo.bezierCurveTo(500, 170, 550, 260, 580, 220);
+    lienzo.strokeStyle = "purple";
+    lienzo.stroke();
+    lienzo.closePath();
+}
+
+
 Punto1();
 Punto2();
 Punto3();
+Punto4();
