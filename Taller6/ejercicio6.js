@@ -13,5 +13,5 @@ const ejercicio6 = () => {
 
     console.log("El numero '" + num + "' pasado a binario es: '" + binaryNum + "'")
 }
-ejercicio6()
+
 module.exports = ejercicio6;
