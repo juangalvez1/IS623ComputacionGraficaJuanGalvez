@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(rgb(16, 16, 16), white);
+}
+
+.container{
+    min-height: 100vh;
+    /* padding: 20px; */
+}
+
+.login-container{
+    max-width: 650px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+}
+
+.register{
+    padding: 40px;
+    position: relative;
+}
+
+.register h3{
+    color: #797979;
+    margin-bottom: 30px;
+}
+
+.register input{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #a8a8a8;
+    color: #333;
+}
+
+.register .submit{
+    width: auto;
+    padding: 10px;
+    background: #120c06;
+    color: #fff;
+    font-size: 12px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.login{
+    background-image: linear-gradient(to bottom right, #101015, #dce4fd);
+    padding: 40px;
+}
+
+.login h3{
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.login button{
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    position: relative;
+    border: none;
+    color: #fff;
+}
+
+.login button i{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.login .fb{
+    background: #3b5999;
+}
+
+.login .tw{
+    background: #55acef;
+}
+
+.login .correo{
+    background: #33d4ce;
+}
