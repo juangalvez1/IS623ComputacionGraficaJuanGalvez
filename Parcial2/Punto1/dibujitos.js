@@ -218,3 +218,57 @@ dibujarFiguraRellena(isometrico3,[
     [150, 0],
     [0, 90],
 ], "#00FF40")
+
+
+// Figurita 4
+
+// Cara derecha
+dibujarFiguraRellena(isometrico4, [
+    [150, 330],
+    [350, 210],
+    [350, 90],
+    [300, 120]
+], "#FEA500")
+
+// Cara frontal
+dibujarFiguraRellena(isometrico4, [
+    [150, 330],
+    [0, 240],
+    [150, 30],
+    [200, 60],
+    [160, 120],
+    [210, 150],
+    [250, 90],
+    [300, 120]
+], "#FEA500")
+
+// Cara superior derecha
+dibujarFiguraRellena(isometrico4, [
+    [300, 120],
+    [350, 90],
+    [300, 60],
+    [250, 90]
+], "#FEA500")
+
+// Cara superior izquierda
+dibujarFiguraRellena(isometrico4, [
+    [200, 60],
+    [250, 30],
+    [200, 0],
+    [150, 30]
+], "#FEA500")
+
+// Cara plana en medio
+dibujarFiguraRellena(isometrico4, [
+    [250, 90],
+    [210, 150],
+    [160, 120]
+], "#FEA500")
+
+// Cara lateral derecha
+dibujarFiguraRellena(isometrico4, [
+    [250, 90],
+    [160, 120],
+    [200, 60],
+    [250, 30]
+], "#FEA500")
