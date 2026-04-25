@@ -82,6 +82,7 @@ dibujarFiguraRellena(isometrico1, [
     [200, 390]
 ], "#C84AFA");
 
+
 // Figurita 2
 
 // Cara frontal izquierda
@@ -116,7 +117,7 @@ dibujarFiguraRellena(isometrico2, [
     [234, 160]
 ], "#39DAFA");
 
-//Segundo escalon vertical
+// Segundo escalon vertical
 dibujarFiguraRellena(isometrico2, [
     [234, 160],
     [134, 100],
@@ -124,7 +125,7 @@ dibujarFiguraRellena(isometrico2, [
     [234, 100]
 ], "#39DAFA");
 
-//Tercer escalon plano 
+// Tercer escalon plano 
 dibujarFiguraRellena(isometrico2, [
     [234, 100],
     [134, 40],
@@ -133,7 +134,7 @@ dibujarFiguraRellena(isometrico2, [
 ], "#39DAFA");
 
 
-//Cara lateral izquierda
+// Cara lateral izquierda
 dibujarFiguraRellena(isometrico2, [
     [100, 300],
     [175, 255],
@@ -146,5 +147,74 @@ dibujarFiguraRellena(isometrico2, [
 ], "#39DAFA");
 
 
+// Figurita 3
 
+// Cara izquierda
+dibujarFiguraRellena(isometrico3, [
+    [200, 510],
+    [0, 390],
+    [0, 90],
+    [50, 120],
+    [50, 240],
+    [200, 330],
+], "#00FF40")
 
+// Cara derecha inferior
+dibujarFiguraRellena(isometrico3, [
+    [200, 510],
+    [200, 420],
+    [350, 390],
+    [350, 420]
+], "#00FF40")
+
+// Cara derecha de enmedio
+dibujarFiguraRellena(isometrico3, [
+    [200, 420],
+    [200, 330],
+    [400, 300],
+    [400, 390]
+], "#00FF40")
+
+// Cara plana de enmedio
+dibujarFiguraRellena(isometrico3, [
+    [200, 330],
+    [50, 240],
+    [100, 210],
+    [150, 240],
+    [250, 180],
+    [400, 300],
+], "#00FF40")
+
+// Cara derecha de arriba pequeña
+dibujarFiguraRellena(isometrico3, [
+    [50, 240],
+    [50, 120],
+    [100, 90],
+    [100, 210]
+], "#00FF40")
+
+// Cara izquierda de arriba pequeña
+dibujarFiguraRellena(isometrico3, [
+    [100, 210],
+    [100, 90],
+    [150, 120],
+    [150, 240]
+], "#00FF40")
+
+// Cara derecha de arriba grande
+dibujarFiguraRellena(isometrico3,[
+    [150, 240],
+    [150, 120],
+    [250, 60],
+    [250, 180],
+], "#00FF40")
+
+// Cara superior
+dibujarFiguraRellena(isometrico3,[
+    [50, 120],
+    [100, 90],
+    [150, 120],
+    [250, 60],
+    [150, 0],
+    [0, 90],
+], "#00FF40")
