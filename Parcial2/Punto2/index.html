@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <title>Punto 2</title>
+    </head>
+    <body>
+        <h3>Grafica</h3>
+        <div class="graph">
+            <canvas id="graph" width="500" height="400"></canvas>
+        </div>
+
+        <div class="coordinates">
+            <div>
+                <label for="x">Coordenada X (0-500):</label>
+                <input type="number" id="xCoord" placeholder="X Coordinate" min="0" max="500">
+            </div>
+
+            <div>
+                <label for="y">Coordenada Y (0-400):</label>
+                <input type="number" id="yCoord" placeholder="Y Coordinate" min="0" max="400">
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="limpiar" class="btn btn-danger">Limpiar</button>
+            <button id="graficar" class="btn btn-primary">Graficar</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
