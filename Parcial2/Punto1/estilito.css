@@ -11,9 +11,17 @@ body{
 }
 
 div{
-    height: 450px;
-    width: 350px;
     border: 1px solid red;
     margin: 0;
     padding: 0;
+}
+
+.isometrico1 {
+    height: 450px;
+    width: 350px;
+}
+
+.isometrico2 {
+    height: 420px;
+    width: 300px;
 }
