@@ -8,31 +8,32 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
         <title>VetCare Plus - Clínica Veterinaria</title>
     </head>
     <body>
 
     <!-- ===================== NAVBAR ===================== -->
-    <nav class="navbar navbar-expand-lg vc-navbar sticky-top">
+    <nav class="navbar navbar-expand-lg vc-navbar py-0 sticky-top">
         <div class="container">
-            <a class="navbar-brand vc-brand" href="#">
-            <i class="bi bi-heart-pulse-fill me-2"></i>VetCare Plus
+            <a class="navbar-brand vc-brand d-flex align-items-center" href="#">
+                <img src="img/logo.jpg" class="me-2" style="height: 60px;">VetCare Plus
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav mx-auto gap-1">
-                <li class="nav-item"><a class="nav-link vc-nav-link" href="#servicios">Servicios</a></li>
-                <li class="nav-item"><a class="nav-link vc-nav-link" href="#especialistas">Especialistas</a></li>
-                <li class="nav-item"><a class="nav-link vc-nav-link" href="#planes">Planes</a></li>
-                <li class="nav-item"><a class="nav-link vc-nav-link" href="#citas">Citas</a></li>
-                <li class="nav-item"><a class="nav-link vc-nav-link" href="#contacto">Contacto</a></li>
-            </ul>
+                <ul class="navbar-nav mx-auto gap-1">
+                    <li class="nav-item"><a class="nav-link vc-nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link vc-nav-link" href="#especialistas">Especialistas</a></li>
+                    <li class="nav-item"><a class="nav-link vc-nav-link" href="#planes">Planes</a></li>
+                    <li class="nav-item"><a class="nav-link vc-nav-link" href="#citas">Citas</a></li>
+                    <li class="nav-item"><a class="nav-link vc-nav-link" href="#contacto">Contacto</a></li>
+                </ul>
             <a href="#citas" class="btn vc-btn-nav ms-lg-3">Agendar cita</a>
             </div>
         </div>
-        </nav>
+    </nav>
 
         <!-- ===================== HERO ===================== -->
         <section class="vc-hero">
@@ -45,8 +46,9 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="vc-hero-img-slot">
-                <i class="bi bi-camera" style="font-size:2rem;color:#81c784;"></i>
-                <span>Imagen principal</span>
+                <!-- <i class="bi bi-camera" style="font-size:2rem;color:#81c784;"></i>
+                <span>Imagen principal</span> -->
+                <img src="img\principal-image.jpg" class="w-100 h-100 object-fit-cover rounded-4">
                 </div>
             </div>
             </div>
@@ -54,7 +56,7 @@
         </section>
 
         <!-- ===================== SERVICIOS ===================== -->
-        <section class="vc-section bg-white" id="servicios">
+        <section class="vc-section vc-bg-light" id="servicios">
         <div class="container">
             <div class="vc-sec-header text-center mb-4">
             <i class="fa-solid fa-stethoscope vc-sec-icon"></i>
@@ -66,11 +68,11 @@
             <div class="col-md-4">
                 <div class="vc-card h-100">
                 <div class="vc-card-img">
-                    <img src="img/consulta.jpg" alt="Consulta general" onerror="this.parentElement.innerHTML='<div class=\'vc-card-img-placeholder\'><i class=\'bi bi-camera\'></i><span>Imagen del servicio</span></div>'" />
+                    <img src="img/vet-consultation.jpg" alt="Consulta general"/>
                 </div>
                 <div class="vc-card-body d-flex flex-column">
                     <h3 class="vc-card-title"><i class="bi bi-clipboard2-pulse me-1"></i>Consulta general</h3>
-                    <p class="vc-card-text flex-grow-1">Revisión completa del estado de salud de tu mascota con nuestros veterinarios certificados.</p>
+                    <p class="vc-card-text flex-grow-1">Revisión completa del estado de salud de tu mascota con nuestros veterinarios certificados y capacitados a cualquier situacion.</p>
                     <a href="#" class="btn vc-btn-card mt-auto">Ver más</a>
                 </div>
                 </div>
@@ -79,7 +81,7 @@
             <div class="col-md-4">
                 <div class="vc-card h-100">
                 <div class="vc-card-img">
-                    <img src="img/vacunacion.jpg" alt="Vacunación" onerror="this.parentElement.innerHTML='<div class=\'vc-card-img-placeholder\'><i class=\'bi bi-camera\'></i><span>Imagen del servicio</span></div>'" />
+                    <img src="img/vacune.jpg" alt="Vacunación"/>
                 </div>
                 <div class="vc-card-body d-flex flex-column">
                     <h3 class="vc-card-title"><i class="bi bi-shield-plus me-1"></i>Vacunación</h3>
@@ -92,11 +94,64 @@
             <div class="col-md-4">
                 <div class="vc-card h-100">
                 <div class="vc-card-img">
-                    <img src="img/laboratorio.jpg" alt="Laboratorio" onerror="this.parentElement.innerHTML='<div class=\'vc-card-img-placeholder\'><i class=\'bi bi-camera\'></i><span>Imagen del servicio</span></div>'" />
+                    <img src="img/vet-lab.jpg" alt="Laboratorio"/>
                 </div>
                 <div class="vc-card-body d-flex flex-column">
                     <h3 class="vc-card-title"><i class="bi bi-eyedropper me-1"></i>Laboratorio clínico</h3>
                     <p class="vc-card-text flex-grow-1">Análisis de sangre, orina y cultivos para diagnósticos precisos y rápidos con equipos de última generación.</p>
+                    <a href="#" class="btn vc-btn-card mt-auto">Ver más</a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </section>
+
+        <!-- ===================== ESPECIALISTAS ===================== -->
+        <section class="vc-section bg-white" id="especialistas">
+        <div class="container">
+            <div class="vc-sec-header text-center mb-4">
+            <i class="fa-solid fa-user-doctor vc-sec-icon"></i>
+            <h2 class="vc-sec-title">Nuestros Especialistas</h2>
+            <p class="vc-sec-sub">Conoce a nuestros trabajadores, ellos te atenderán de la mejor manera</p>
+            </div>
+            <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="vc-card h-100">
+                <div class="vc-card-img-esp">
+                    <img src="" alt="Tania Marin"/>
+                </div>
+                <div class="vc-card-body d-flex flex-column">
+                    <h3 class="vc-card-title"><i class="fa-solid fa-stethoscope me-1"></i>Veterinaria Principal</h3>
+                    <p class="vc-card-text flex-grow-1">Encargada de supervisar el estado general de salud de las mascotas, brindando atención integral y coordinando diagnósticos y tratamientos adecuados en cada caso.</p>
+                    <a href="#" class="btn vc-btn-card mt-auto">Ver más</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="vc-card h-100">
+                <div class="vc-card-img-esp">
+                    <img src="img/Thomas.jpeg" alt="Thomas S. Beltran"/>
+                </div>
+                <div class="vc-card-body d-flex flex-column">
+                    <h3 class="vc-card-title"><i class="fa-solid fa-user-nurse me-1"></i>Enfermero</h3>
+                    <p class="vc-card-text flex-grow-1">Apoyo en procedimientos clínicos, administración de medicamentos y cuidado diario de las mascotas, garantizando su bienestar y una atención continua y segura.</p>
+                    <a href="#" class="btn vc-btn-card mt-auto">Ver más</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="vc-card h-100">
+                <div class="vc-card-img-esp">
+                    <img src="img/Brahian.jpeg" alt="Brahian Castro"/>
+                </div>
+                <div class="vc-card-body d-flex flex-column">
+                    <h3 class="vc-card-title"><i class="fa-solid fa-syringe me-1"></i>Cirujano</h3>
+                    <p class="vc-card-text flex-grow-1">Especialista en intervenciones quirúrgicas, realizando procedimientos con precisión y cuidado, asegurando una recuperación óptima y seguimiento adecuado.</p>
                     <a href="#" class="btn vc-btn-card mt-auto">Ver más</a>
                 </div>
                 </div>
@@ -299,8 +354,8 @@
         <div class="container">
             <div class="row g-4">
             <div class="col-md-4">
-                <h5 class="vc-footer-title"><i class="bi bi-heart-pulse-fill me-2"></i>VetCare Plus</h5>
-                <p class="vc-footer-text">Cuidando a tus mascotas con amor y profesionalismo desde 2010.</p>
+                <h5 class="vc-footer-title"><img src="img/logo.jpg" class="me-2" style="height: 60px;"></i>VetCare Plus</h5>
+                <p class="vc-footer-text">Cuidando a tus mascotas con amor y profesionalismo desde 1900.</p>
                 <div class="d-flex gap-2 mt-3">
                 <a href="#" class="vc-social" title="Facebook">
                     <i class="fa-brands fa-facebook-f"></i>
@@ -315,7 +370,7 @@
             </div>
             <div class="col-md-4">
                 <h5 class="vc-footer-title"><i class="bi bi-geo-alt-fill me-2"></i>Contacto</h5>
-                <p class="vc-footer-text"><i class="bi bi-map me-1"></i> Calle 45 #12-30, Bogotá</p>
+                <p class="vc-footer-text"><i class="bi bi-map me-1"></i> Calle 35A #80-26, Pereira</p>
                 <p class="vc-footer-text"><i class="bi bi-telephone me-1"></i> (601) 234-5678</p>
                 <p class="vc-footer-text"><i class="bi bi-envelope me-1"></i> info@vetcareplus.com</p>
             </div>
@@ -323,12 +378,12 @@
                 <h5 class="vc-footer-title"><i class="bi bi-clock-fill me-2"></i>Horarios</h5>
                 <p class="vc-footer-text">Lunes - Viernes: 8:00 am - 7:00 pm</p>
                 <p class="vc-footer-text">Sábados: 8:00 am - 2:00 pm</p>
-                <p class="vc-footer-text">Domingos: Solo urgencias</p>
+                <p class="vc-footer-text">Domingos y Festivos: Solo urgencias</p>
             </div>
             </div>
         </div>
         <div class="vc-footer-bottom mt-4">
-            <p class="mb-0">© 2025 VetCare Plus · Todos los derechos reservados</p>
+            <p class="mb-0">© 2026 VetCare Plus · Todos los derechos reservados</p>
         </div>
         </footer>
 
