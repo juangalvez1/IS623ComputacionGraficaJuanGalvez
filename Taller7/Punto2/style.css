@@ -1,0 +1,168 @@
+body {
+    background-color: #050e18;
+    color: #a0c8e0;
+    font-family: 'Courier New', monospace;
+}
+
+.neon-nav {
+    background-color: #020d15;
+    border-bottom: 1px solid rgba(0, 220, 255, 0.2);
+}
+
+.neon-nav .navbar-brand {
+    color: #00dcff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.neon-nav .nav-link {
+    color: #a0c8e0 !important;
+}
+
+.neon-nav .nav-link:hover,
+.neon-nav .nav-link.active {
+    color: #00dcff !important;
+}
+
+.section-label {
+    color: #00dcff;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-left: 3px solid #00dcff;
+    padding-left: 8px;
+    margin-bottom: 12px;
+}
+
+.badge-neon-green {
+    background-color: rgba(0, 255, 100, 0.1);
+    color: #00ff64;
+    border: 1px solid rgba(0, 255, 100, 0.4);
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.badge-neon-yellow {
+    background-color: rgba(255, 200, 0, 0.1);
+    color: #ffc800;
+    border: 1px solid rgba(255, 200, 0, 0.4);
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.badge-neon-red {
+    background-color: rgba(255, 40, 60, 0.1);
+    color: #ff283c;
+    border: 1px solid rgba(255, 40, 60, 0.4);
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.badge-neon-blue {
+    background-color: rgba(50, 120, 255, 0.1);
+    color: #5090ff;
+    border: 1px solid rgba(50, 120, 255, 0.4);
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.table-neon {
+    color: #a0c8e0;
+    border-color: rgba(0, 220, 255, 0.1);
+}
+
+.table-neon thead th {
+    background-color: rgba(0, 220, 255, 0.07);
+    color: #00dcff;
+    border-color: rgba(0, 220, 255, 0.15);
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.table-neon tbody tr {
+    background-color: #071520;
+    border-color: rgba(0, 220, 255, 0.08);
+}
+
+.table-neon tbody tr:hover {
+    background-color: rgba(0, 220, 255, 0.05) !important;
+    color: #a0c8e0;
+}
+
+.table-neon tbody td {
+    border-color: rgba(0, 220, 255, 0.08);
+}
+
+.list-neon {
+    background-color: #071520;
+    color: #a0c8e0;
+    border-color: rgba(0, 220, 255, 0.12);
+}
+
+.list-neon:hover {
+    background-color: rgba(0, 220, 255, 0.05);
+}
+
+.card-neon {
+    background-color: #071520;
+    border: 1px solid rgba(0, 220, 255, 0.2);
+    color: #a0c8e0;
+}
+
+.card-neon .card-title {
+    color: #00dcff;
+    letter-spacing: 1px;
+}
+
+.btn-neon {
+    background-color: rgba(0, 220, 255, 0.1);
+    color: #00dcff;
+    border: 1px solid rgba(0, 220, 255, 0.4);
+}
+
+.btn-neon:hover {
+    background-color: rgba(0, 220, 255, 0.2);
+    color: #00dcff;
+}
+
+.btn-neon-outline {
+    background-color: transparent;
+    color: #a0c8e0;
+    border: 1px solid rgba(160, 200, 224, 0.3);
+}
+
+.btn-neon-outline:hover {
+    background-color: rgba(160, 200, 224, 0.08);
+    color: #a0c8e0;
+}
+
+.toast-neon {
+    background-color: #040f1a;
+    border: 1px solid rgba(0, 220, 255, 0.2);
+    color: #a0c8e0;
+}
+
+.toast-header-neon {
+    background-color: rgba(255, 200, 0, 0.08);
+    border-bottom: 1px solid rgba(255, 200, 0, 0.2);
+    color: #ffc800;
+}
+
+.modal-neon {
+    background-color: #040f1a;
+    border: 1px solid rgba(0, 220, 255, 0.25);
+    color: #a0c8e0;
+}
+
+.modal-neon .modal-header {
+    border-bottom-color: rgba(0, 220, 255, 0.15);
+}
+
+.modal-neon .modal-title {
+    color: #00dcff;
+    letter-spacing: 1px;
+}
+
+.modal-neon .modal-footer {
+    border-top-color: rgba(0, 220, 255, 0.15);
+}
